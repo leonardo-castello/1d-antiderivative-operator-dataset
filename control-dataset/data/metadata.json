@@ -1,0 +1,23 @@
+{
+  "operator": "antiderivative: u(x) = integral_0^x a(s) ds",
+  "domain": [
+    0.0,
+    1.0
+  ],
+  "K_modes": 8,
+  "decay_power": 1.5,
+  "n_train": 1000,
+  "train_seed": 0,
+  "train_res": 64,
+  "n_test": 200,
+  "test_seed": 12345,
+  "test_res_list": [
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024
+  ]
+}
